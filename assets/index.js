@@ -48,7 +48,7 @@ function getProduct() {
         .then(response => response.json())
         .then(productData => productData.forEach(product => gettingCard(product)))
 }
-getProduct()
+getProduct();
 
 function addingProductPost(productObj) {
     fetch('https://fakestoreapi.com/products', {
@@ -61,4 +61,4 @@ function addingProductPost(productObj) {
         })
         .then(res => res.json())
 }
-addingProductPost();
+addingProductPost()
