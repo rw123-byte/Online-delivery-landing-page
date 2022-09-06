@@ -61,4 +61,4 @@ function addingProductPost(productObj) {
         })
         .then(res => res.json())
 }
-addingProductPost()
+addingProductPost();
