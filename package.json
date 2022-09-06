@@ -1,22 +1,22 @@
 {
-  "name": "online-delivery-landing-page",
-  "version": "1.0.0",
-  "description": "create A Fake Rest Api for testing",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rw123-byte/Online-delivery-landing-page.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rw123-byte/Online-delivery-landing-page/issues"
-  },
-  "homepage": "https://github.com/rw123-byte/Online-delivery-landing-page#readme",
-  "dependencies": {
-    "json-server": "^0.17.0"
-  }
+    "name": "online-delivery-landing-page",
+    "version": "1.0.0",
+    "description": "create A Fake Rest Api for testing",
+    "main": "index.js",
+    "scripts": {
+        "json:server": "json-server --watch db.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rw123-byte/Online-delivery-landing-page.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rw123-byte/Online-delivery-landing-page/issues"
+    },
+    "homepage": "https://github.com/rw123-byte/Online-delivery-landing-page#readme",
+    "dependencies": {
+        "json-server": "^0.17.0"
+    }
 }
