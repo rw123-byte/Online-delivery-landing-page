@@ -591,3 +591,105 @@ img {
 .about section container img {
     color: lightblue;
 }
+
+
+/*Products*/
+
+#product-collection {
+    margin: 2rem;
+}
+
+.product-avatar {
+    justify-self: center;
+    height: 12rem;
+    width: auto;
+}
+
+button {
+    box-shadow: rgba(125, 185, 125, 0.507) 0px 5px 5px 0px;
+    border-radius: 40px;
+    color: red;
+    border-width: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    border-color: lightblue;
+    margin: 10px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    border: #4d4be0 solid 1px;
+    color: #4b75e0;
+}
+
+.card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #3237cd
+}
+
+#products .container {
+    padding: 1rem;
+    width: stretch;
+    height: auto;
+    background: white;
+    opacity: .8;
+    display: none;
+}
+
+.make-order-form {
+    width: 80%
+}
+
+.submit {
+    box-shadow: rgba(125, 185, 125, 0.507) 0px 5px 5px 0px;
+    border-radius: 40px;
+    color: red;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    cursor: pointer;
+    border-color: blue;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.submit:hover {
+    background-color: whitesmoke;
+    border: #341bd4 solid 1px;
+    color: #1e82c4;
+}
+
+.input-text {
+    border-radius: 10px;
+    height: 2rem;
+    width: 60%;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 3px;
+    border-color: blue;
+}
+
+#products p {
+    font-size: 20px;
+}
+
+#products h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#products h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
