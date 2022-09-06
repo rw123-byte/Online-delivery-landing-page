@@ -179,3 +179,89 @@ img {
     font-size: 1.5rem;
     font-weight: normal;
 }
+
+
+/*ABOUT */
+
+.about__container {
+    gap: 2.5rem;
+}
+
+.about__data h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: var(--mb-0-75);
+}
+
+.about__data p {
+    margin-bottom: var(--mb-2);
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.about__data {
+    text-align: center;
+}
+
+
+/*SERVICES */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+#services h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, red 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box :hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: lightblue;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+}
+
+.box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.box p {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
