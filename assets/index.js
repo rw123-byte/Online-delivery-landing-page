@@ -29,3 +29,23 @@ function gettingCard(productData) {
     })
     document.querySelector('#product-collection').appendChild(card)
 }
+
+function orders(productOrder) {
+    fetch(`https://fakestoreapi.com/products${productOrder.id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify(productOrder)
+        })
+        .then(res => res.json())
+        .then(product => console.log(product))
+}
+
+function getProduct() {
+    fetch('https://fakestoreapi.com/products')
+        .then(response => response.json())
+        .then(productData => productData.forEach(product => gettingCard(product)))
+}
+getProduct()
