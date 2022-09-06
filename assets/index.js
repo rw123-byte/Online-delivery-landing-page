@@ -49,3 +49,16 @@ function getProduct() {
         .then(productData => productData.forEach(product => gettingCard(product)))
 }
 getProduct()
+
+function addingProductPost(productObj) {
+    fetch('https://fakestoreapi.com/products', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Accept: "application/json"
+            },
+            body: JSON.stringify(productObj)
+        })
+        .then(res => res.json())
+}
+addingProductPost()
