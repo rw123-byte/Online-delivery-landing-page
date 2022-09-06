@@ -12,3 +12,20 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+function gettingCard(productData) {
+    let card = document.createElement('div')
+    card.className = `card`
+    card.innerHTML = `
+  <h2>${productData.name}</h2>
+  <img src="${productData.image}" class="product-avatar" />
+  <p>${productData.order} order</p>
+  <button class="order-btn" id="[product_id]">Order</button>
+  `
+    card.querySelector('.order-btn').addEventListener('click', () => {
+        let totalOrders = productData.order = +1
+        card.querySelector('p').textContent = totalOrders + 'orders'
+        orders(productData)
+    })
+    document.querySelector('#product-collection').appendChild(card)
+}
