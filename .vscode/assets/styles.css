@@ -160,3 +160,22 @@ img {
 .scroll-header {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
+
+
+/*HOME */
+
+.home__container {
+    row-gap: 3rem;
+}
+
+.home__data h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: var(--mb-0-75);
+}
+
+.home__data p {
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
