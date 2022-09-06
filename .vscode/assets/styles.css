@@ -265,3 +265,66 @@ img {
     font-size: 1.1rem;
     font-weight: normal;
 }
+
+
+/*contact section*/
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+}
+
+.info .text {
+    font-size: 1rem;
+    color: blue;
+}
+
+.social-text {
+    padding: 0.7 0;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    height: 46px;
+    width: 46px;
+    border: 1px solid blue;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.social-icon:hover {
+    color: white;
+    border-color: lightblue;
+}
+
+.text {
+    padding: 0.7 0;
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 0.45rem;
+    margin-top: 1em;
+    display: inline;
+}
+
+.description {
+    color: black;
+    font-size: 1.2rem;
+}
