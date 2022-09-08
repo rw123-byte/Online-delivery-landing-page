@@ -2,7 +2,7 @@ let addProduct = false;
 
 document.addEventListener("DOMContentLoaded", () => {
     const paragraphBtn = document.querySelector("#new-product-btn");
-    const toyFormContainerDiv = document.querySelector(".container");
+    const productFormContainerDiv = document.querySelector(".container");
     paragraphBtn.addEventListener("click", () => {
         addProduct = !addProduct;
         if (addProduct) {
